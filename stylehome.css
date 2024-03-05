@@ -1,0 +1,55 @@
+#titulo{
+    font-size: 35px;
+    margin-left: 5px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-left: 5px;
+}
+header{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(63, 62, 62);
+    position: fixed;
+    width: 100%;
+    top: 0;
+   
+}
+header, nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+header, ul li{
+    margin-left: 0;
+    font-size: 15px;
+}
+#h2DeD{
+    padding-top: 120px;
+
+}
+#paragroIntroducao{
+    font-size: 20px;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.imagensExemplo {
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+    margin-right: 150px;
+    display: inline-block;
+}
+h3{
+    display: inline-block;
+    margin-left: 160px;
+}
+#cenario{
+    margin-right: 260px;
+    margin-left: 430px;
+}
