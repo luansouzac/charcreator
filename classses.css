@@ -1,0 +1,36 @@
+#h2Classes{
+    margin: 10px;
+}
+#paragroClasses{
+    font-size: 20px;
+    padding-top: 25px;
+    margin-left: 10px;
+}
+#h3Barbaro{
+   text-align: center;
+   margin-left: 45%;
+}
+#textoBarbaro{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.imagensClasses{
+    width: 150px;
+    margin-left: 650px;
+}
+#h3Bruxo{
+    text-align: center;
+    margin-left: 45%;
+}
+#textoBruxo{
+    font-size: 18px;
+    margin-left: 10px;
+}
+#h3Bardo{
+    text-align: center;
+    margin-left: 45%;
+}
+#textoBardo{
+    font-size: 18px;
+    margin-left: 10px;
+}
