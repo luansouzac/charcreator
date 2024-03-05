@@ -3,6 +3,8 @@
 <head>
     <link rel="stylesheet" href="stylehome.css">
     <link rel="stylesheet" href="classes.css">
+    <link rel="stylesheet" href="raças.css">
+    <link rel="stylesheet" href="form.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Char Creator</title>
@@ -62,7 +64,48 @@
         </p>
         <img src="imagens/classes/bardo.png" class="imagensClasses" alt="bardo">
     </div>
-        
-    
+    <div>
+        <h2 id="h2Racas"><li>Raças</li></h2>
+        <h3 id="h3Humanos">Humanos</h3>
+        <p id="textoHumanos">Os humanos são a raça mais comum e amplamente distribuída nos mundos de D&D, ocupando diversos ambientes, de desertos a florestas. Sua adaptabilidade cultural, social e étnica é notável, abrangendo desde povos cosmopolitas até aqueles de estilo de vida mais selvagem. Essa diversidade torna as comunidades humanas únicas, variando de indivíduos nobres e altruístas a outros egoístas e sem compaixão. A expansão territorial dos humanos é notável, sendo vista por algumas raças como uma praga em certas situações, gerando desconfiança em muitas criaturas nos mundos fantásticos de D&D.</p>
+        <img src="imagens/raças/cavaleiro.png" class="imagensClasses" alt="humanos">
+    </div>
+    <div class="divDraconato" id="Draconato">
+        <h3 id="h3Humanos">Draconato</h3>
+        <p id="textoHumanos">Draconatos são dragões humanoides altos, medindo geralmente mais de 1,90 metros e pesando entre 100 e 150 quilos. Possuem pés com três garras na frente e uma atrás, mãos com quatro garras, sendo uma delas opositora, e uma cabeça reptiliana com focinho rombudo, sobrancelha protuberante, babados reptilianos nas bochechas e orelhas, além de uma crista de escamas na parte de trás. Seus olhos são geralmente vermelhos ou dourados. O corpo é coberto por escamas, podendo ter cores relacionadas aos dragões cromáticos ou metálicos, mas também podem exibir tons menos comuns devido a cruzamentos entre diferentes linhagens de dragões.
+        </p>
+        <img src="imagens/raças/dragao.png" class="imagensClasses" id="imagemDraconato" alt="draconato">
+    </div>
+    <div>
+        <h3 id="h3Humanos">Gnomos</h3>
+        <p id="textoHumanos"> Gnomos são pequenos, medindo entre 90 cm e 1,20 m de altura e pesando entre 18 e 20 quilos em geral. Gnomos da floresta, mais raros, são ainda menores, raramente ultrapassando 85 cm. Podem ser ofendidos por comparações como "mini-elfos" devido às orelhas compridas ou "mini anões" pelas barbas. A cor da pele varia de vermelho a tons de cinza, influenciada pela linhagem. Cabelos podem ser castanhos, azuis, brancos, entre outras cores. Olhos podem ter diversas tonalidades, sendo os de Gnomos de Agréstia das Fadas cintilantes e azulados. Suas roupas, geralmente em tons terrosos, refletem o ambiente local, incorporando elementos de couro e misturando-se com rochas ou plantas em aldeias pequenas.
+        </p>
+        <img src="imagens/raças/gnomo.png" class="imagensClasses" alt="gnomos">
+    </div>
+    <div class="forms" id="formsPersonagem">
+        <h2 id="h2Racas"><li>Criar Personagem</li></h2>
+        <form action="">
+            <p>Nome do seu personagem:</p>
+            <input type="text" id="NomeDoPersonagem" name="Nome do personagem" placeholder="Nome do Personagem">
+            <p>Classe do seu personagem</p>
+            <select name="Classe" id="escolhaClasse">
+                <option value="Barbaro">Barbaro</option>
+                <option value="Bruxo">Bruxo</option>
+                <option value="Bardo">Bardo</option>
+            </select>
+            <p>Raça do seu personagem</p>
+            <select name="Raça" id="escolhaRaça">
+                <option value="Humano">Humano</option>
+                <option value="Draconato">Draconato</option>
+                <option value="Gnomo">Gnomo</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+
+
+        </form>
+
+    </div>
 </body>
 </html>
